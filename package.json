@@ -4,12 +4,16 @@
   "description": "confirm react native postmessage function is ready to send a message, otherwise wait for it to be ready before sending",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "react-native",
     "postmessage"
   ],
   "author": "Beano studios",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.0.4"
+  },
+  "repository": "github:TeamBeano/when-rn-post-message-ready"
 }
